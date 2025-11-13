@@ -1,5 +1,6 @@
 //Luo Web-sovelluksen.
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseUrls("http://0.0.0.0:8080");
 var app = builder.Build();
 
 //Luodaan Lemmikki.DB olio.
