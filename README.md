@@ -34,7 +34,7 @@ Nyt GET http://localhost:5148/lemmikit/Musti toimii ja se tulostaa seuraavasti:
 Lemmikki: Musti, Omistaja: Matti, Puhelin: 0401234567
 
 
-DOCKE
+DOCKER
 
 tällä saat buildattua imagen: docker build -t lemmikkikannan_api .  
 
