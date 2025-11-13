@@ -32,3 +32,10 @@ Molemmat bodyt ovat JSON.
 
 Nyt GET http://localhost:5148/lemmikit/Musti toimii ja se tulostaa seuraavasti:
 Lemmikki: Musti, Omistaja: Matti, Puhelin: 0401234567
+
+
+DOCKE
+
+tällä saat buildattua imagen: docker build -t lemmikkikannan_api .  
+
+tällä kontti käynistyy: docker run -d -p 8080:80 lemmikkikannan_api
